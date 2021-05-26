@@ -1,0 +1,113 @@
+body {
+    background-image: url(../laPasteleriaBA/imagenes/primer-plano-sabrosos-ravioles-italianos_1220-4774.jpg);
+}
+
+#nombre {
+    font-size: 30px;
+    border-bottom: 2px blue ;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: rgb(9, 252, 9);
+}
+
+.navegacion a {
+    font-size: 20px;
+    color: blue;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navegacion a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 100);
+}
+
+h2,
+h3,
+h4,
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.platos {
+    display: flex;
+}
+.platos1{
+    box-shadow: 5px 5px 15px 5px rgb(109, 252, 109);
+    width: 400px;
+    height: 480px;
+    padding: 10px;
+    margin: auto;
+
+}
+.platos1 p {
+    position: relative;
+    margin-top: 20px;
+    text-align: justify;
+  
+}
+.platos1 #image{
+display: block;
+margin: auto;
+  
+}
+.platosEntrada{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-gap: 20px;
+width: 80%;
+margin: 20px 20px 20px 60px;
+
+}
+.platosEntrada img{
+    width: 250px;
+    height: 170px;
+}
+footer {
+    margin: 30px 10px 10px 10px;
+    background-color: rgb(9, 252, 9);
+    padding: 10px;
+    text-align: center;
+}
+.chamuyoInicio {
+    background-image: url(../imagenes/gourmet-plating-ideas-food-plating.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    margin: auto;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+container{
+    height: 100vh;
+}
